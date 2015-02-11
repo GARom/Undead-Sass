@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700.css);
 .clearfix:after {
     content: " ";
   /* Older browser do not support empty content */
@@ -35,74 +34,3 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-body {
-  background: #EEF9ED; }
-
-h1 {
-  background: #15A0A7;
-  line-height: 1.6em;
-  letter-spacing: 1.8px;
-  text-align: center;
-  font-size: 0.9em;
-  color: #57D2C9;
-  text-transform: uppercase; }
-
-h2 {
-  font-size: 2em;
-  color: #3BC2C6;
-  padding-top: 10px;
-  position: relative;
-  left: 20px; }
-
-h3 {
-  color: #3BC2C6;
-  position: relative;
-  left: 38px; }
-
-h4 {
-  visibility: hidden; }
-
-a {
-  color: #57D2C9;
-  text-decoration: none; }
-
-.read_more {
-  visibility: hidden; }
-
-.nav {
-  display: none; }
-
-p {
-  font-size: 1.35em;
-  display: block;
-  -webkit-margin-before: 2em;
-  -webkit-margin-after: -2em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px; }
-
-.footer_links {
-  color: black; }
-
-footer {
-  padding: 34px 38px;
-  line-height: 30px; }
-
-footer p {
-  visibility: hidden; }
-
-.row > ul:nth-child(1) {
-  float: left; }
-
-.row > ul:nth-child(3) {
-  float: right; }
-
-.right {
-  -webkit-column-count: 4;
-  /* Chrome, Safari, Opera */
-  -moz-column-count: 4;
-  /* Firefox */
-  column-count: 4; }
-
-h2 a, a {
-  color: black; }
